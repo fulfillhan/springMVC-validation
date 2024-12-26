@@ -10,7 +10,6 @@ import javax.validation.ValidatorFactory;
 import java.util.Set;
 
 public class BeanValidationTest {
-
     @Test
     void beanValidation() {
         ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
