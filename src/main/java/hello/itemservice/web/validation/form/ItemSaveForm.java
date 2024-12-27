@@ -9,15 +9,15 @@ import javax.validation.constraints.NotNull;
 
 @Data
 public class ItemSaveForm {
-
     @NotBlank
     private String itemName;
 
     @NotNull
-    @Range(min = 1000, max = 1000000)
+    @Range(min= 1000, max = 1000000)
     private Integer price;
 
     @NotNull
-    @Max(value = 9999)
+    @Max(9999)
     private Integer quantity;
+
 }
